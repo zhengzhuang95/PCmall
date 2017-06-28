@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+/* 我的购物车头部开始 */
+
+.my_cart_top {
+	border-bottom: 1px solid #F0F0F0;
+	padding-bottom: 10px;
+}
+
+.process ul li {
+	float: left;
+	font-size: 12px;
+	vertical-align: top;
+	letter-spacing: normal;
+	word-spacing: normal;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+
+.vehicle {
+	width: 30px;
+	height: 30px;
+	background: url(../img/buy_step.gif) no-repeat;
+	background-position: 0 0;
+	display: inline-block;
+}
+
+.process {
+	padding-top: 10px;
+}
+
+.process ul li hr {
+	background: #DDD;
+	border: 0;
+}
+
+.process ul li .sel {
+	background: #34aee5;
+}
+
+.process ul li .io {
+	color: #34aee5;
+}
+
+.fill {
+	width: 30px;
+	height: 30px;
+	background: url(../img/buy_step.gif) no-repeat;
+	background-position: -30px 0;
+	display: inline-block;
+}
+
+.payment {
+	width: 30px;
+	height: 30px;
+	background: url(../img/buy_step.gif) no-repeat;
+	background-position: -60px 0;
+	display: inline-block;
+}
+
+.success {
+	width: 30px;
+	height: 30px;
+	background: url(../img/buy_step.gif) no-repeat;
+	background-position: -90px 0;
+	display: inline-block;
+}
+
+.process ul li.current em {
+	background-color: #27A9E3;
+	border-color: #27A9E3;
+	box-shadow: 0 0 0 2px rgba(0, 153, 204, 0.15);
+}
+
+.process ul li em {
+	background-color: #FFF;
+	width: 5px;
+	height: 5px;
+	margin-left: -3px;
+	border: solid 1px #CCC;
+	border-radius: 4px;
+	position: absolute;
+	z-index: 2;
+	top: 36px;
+	left: 50%;
+}
+
+.process ul li .sil {
+	background: #34aee5;
+}
+
+
+/* 我的购物车头部结束 */
+
+.computation_t {
+	margin-top: 30px;
+}
+
+.computation_t .whole li {
+	float: left;
+}
+
+.computation_t .whole li a {
+	padding: 8px 16px;
+	color: #000000;
+	display: block;
+	font-size: 14px;
+}
+
+.computation_t .whole .whole_to {
+	margin-top: 11px;
+}
+
+.computation_t .whole .xz {
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.count {
+	width: 100%;
+	margin-top: 30px;
+	padding: 30px 10px;
+}
+
+.count table {
+	width: 100%;
+}
+
+.count table th {
+	padding: 8px 0 8px 0;
+	text-align: center;
+	font-size: 15px;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+}
+
+.count table .count_t_c {
+	margin-top: 30px;
+}
+
+.count table tr {
+	text-align: center;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.count table td {
+	/*vertical-align: top;*/
+	padding: 16px 0;
+}
+
+.count table .reduce_t {
+	position: relative;
+	width: 110px;
+	height: 25px;
+	zoom: 1;
+	margin-left: 1px;
+}
+
+.count table .reduce_t_p {
+	border: 1px solid #ddd;
+	display: inline-block;
+}
+
+.count table .numb {
+	width: 44px;
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+	border: 0;
+	height: 25px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	float: left;
+	background: none;
+}
+
+.count table .reduce {
+	width: 24px;
+	height: 25px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.count table .spritel {
+	background-image: url(../img/sprite_12.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	display: block;
+	width: 30px;
+	background-position: -3px 2px;
+}
+
+.count table .spriter {
+	background-image: url(../img/sprite_12.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	display: block;
+	width: 30px;
+	background-position: -3px -78px;
+}
+
+.count table .cart_goods_t {
+	display: block;
+	margin-left: 10px;
+}
+
+.count table .message {
+	text-align: left;
+}
+
+.tradename {
+	font-size: 14px;
+}
+
+.count .cart_group_head {
+	padding: 32px 10px 5px;
+	background: #fff;
+}
+
+
+/* 结算 */
+
+.pay {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+.pay .cart_paybar_vmbox {
+	position: relative;
+	padding-left: 50px;
+	width: 300px;
+	font-size: 15px;
+}
+
+.pay .cart_paybar_vmbox label {
+	margin-right: 20px;
+}
+
+.pay .cart_paybar_vmbox a {
+	text-decoration: underline;
+	margin-right: 20px;
+}
+
+.pay>a:hover {
+	color: #fff;
+}
+
+.cart_paybtn {
+	width: 150px;
+	height: 40px;
+	background: red;
+	color: #fff;
+	font-size: 15px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.cart_paybar_info_cost {
+	position: relative;
+	padding: 0 12px 0 8px;
+	display: inline-block;
+	color: #f13e3a;
+	font-weight: 700;
+	font-size: 26px;
+	font-family: Microsoft YaHei, sans-serif;
+}
+
+.cart_deep_red {
+	color: #f13e3a;
+}
+
+/* 核对购物信息开始 */
+.check_top{
+	padding: 15px 0;
+}
+.check_top h2{
+	font-size: 24px;
+}
+.check_top p{
+	font-size: 12px;
+	color: #aaa;
+}

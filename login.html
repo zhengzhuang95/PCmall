@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>红柠檬-商城</title>
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />-->
+		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+
+	<body>
+		<!--顶开头-->
+		<div class="header-top">
+			<div class="head-layout wrapper">
+				<div class="head-logo">
+					<a href="index.html">
+						<img src="img/logo.jpg" width="174" height="76" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!--登录中间页面-->
+		<div class="conten-login">
+			<div class="wrapper">
+				<div class="login-banner">
+					<div class="banner-bg"></div>
+				</div>
+
+				<!--登录界面-->
+				<div class="login-form">
+					<div class="login-tab login-tab-l">
+						<a href="javascript:void(0);" class="switch_btn_focus" id="switch_qlogin"> 扫码登录</a>
+					</div>
+					<div class="login-tab login-tab-r">
+						<a href="javascript:void(0);" class="switch_btn" id="switch_login">账户登录</a>
+					</div>
+					<div class="login-box" id="web_qr_login">
+						<div class="mt tab-h">
+						</div>
+						<div class="msg-wrap" id="form">
+							<div class="mc">
+								<div class="form">
+									<div class="item item-fore1">
+										<label for="loginname" class="login-label name-label"></label>
+										<input id="loginname" type="text" class="itxt" name="loginname" tabindex="1" autocomplete="off" placeholder="邮箱/用户名/已验证手机" />
+										<span class="clear-btn"></span>
+									</div>
+
+									<div id="entry" class="item item-fore2">
+										<label class="login-label pwd-label" for="nloginpwd"></label>
+										<input type="password" id="nloginpwd" name="nloginpwd" class="itxt itxt-error" tabindex="2" autocomplete="off" placeholder="密码" />
+										<span class="clear-btn"></span>
+										<!--<span class="capslock"><b></b>大小写锁定已打开</span>-->
+									</div>
+									<div class="item item-fore4">
+										<div class="safe">
+											<span>
+                                           		<input id="autoLogin" name="chkRememberMe" type="checkbox"
+                                                   class="jdcheckbox" tabindex="3"
+                                                   clstag="pageclick|keycount|20150112ABD|6">
+                                            	<label for="">自动登录</label>
+                                            </span>
+											<span class="forget-pw-safe">
+												<a href="javascript:void(0);" class="" target="_blank"
+													clstag="pageclick|keycount|201607144|3">忘记密码</a>
+										    </span>
+										</div>
+									</div>
+
+									<div class="item item-fore5">
+										<div class="login-btn">
+											<a href="javascript:void(0);" class="btn-img btn-entry" id="loginsubmit" tabindex="6" clstag="pageclick|keycount|201607144|3">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--二维码登录-->
+					<div id="qlogin" class="qrcode-login">
+						<div class="mc">
+							<div class="qrcode-main">
+								<div class="qrcode-img">
+									<img src="img/show.png" />
+								</div>
+								<div class="qrcode-panel">
+									扫一扫登录
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--登录界面底部-->
+					<div class="coagent">
+						<ul>
+							<li>
+								<b></b>
+								<a href="javascript:void(0);">
+									<b class="QQ-icon"></b>
+									<span>QQ</span>
+								</a>
+								<span class="line">|</span>
+							</li>
+							<li>
+								<b></b>
+								<a href="javascript:void(0);">
+									<b class="weixin-icon"></b>
+									<span>微信</span>
+								</a>
+								<span class="line">|</span>
+							</li>
+							<li class="extra-r">
+								<div class="regist-link">
+									<a href="enroll.html">
+										<b></b>
+										<span>立即注册</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--售后保证-->
+		<div class="wrapper">
+			<div class="shouhou">
+				<ul>
+					<li>
+						<img src="img/1472201468379.png" />
+					</li>
+					<li>
+						<img src="img/1472201607594.png" />
+					</li>
+					<li>
+						<img src="img/1472201830338.png" />
+					</li>
+					<li>
+						<img src="img/1472201993991.png" />
+					</li>
+					<div class="clear">
+
+					</div>
+				</ul>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="login-bottom wrapper">
+			<div class="footer">
+				<a href="javascript:void(0);">首页</a>|
+				<a href="javascript:void(0);">关于我们</a>|
+				<a href="javascript:void(0);">联系我们</a>|
+				<a href="javascript:void(0);">招聘英才</a>|
+				<a href="javascript:void(0);">合作及洽谈</a>|
+				<a href="javascript:void(0);">广告服务</a>|
+				<a href="javascript:void(0);">销售联盟</a>|
+				<a href="javascript:void(0);">友情链接</a>|
+			</div>
+			<div class="copyright">
+				Copyright © 2014-2020 MDF.com 版权所有
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#switch_qlogin').click(function() {
+				$(this).css('color','#e4393c')
+				$('#switch_login').css('color','')
+				$('#qlogin').css('display', 'block');
+				$('#web_qr_login').css('display', 'none');
+				
+
+			});
+			$('#switch_login').click(function() {
+				$(this).css('color','#e4393c')
+				$('#switch_qlogin').css('color','')
+				$('#qlogin').css('display', 'none');
+				$('#web_qr_login').css('display', 'block');
+			});
+		});
+	</script>
+
+</html>

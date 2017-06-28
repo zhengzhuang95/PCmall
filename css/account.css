@@ -1,0 +1,304 @@
+@charset "utf-8";
+a {
+	text-decoration: none !important;
+}
+
+
+/*账户概览*/
+
+.settings_box .double {
+	width: 64.9%;
+	margin-top: 3px;
+}
+
+.settings_box #balance,
+.settings_box #security {
+	height: 150px;
+}
+
+.settings_box .normal,
+.settings_box .double {
+	height: 250px;
+	font-size: 12px;
+	vertical-align: top;
+	letter-spacing: normal;
+	word-spacing: normal;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+.settings_box .outline {
+	background-color: #FFF;
+	height: 100%;
+	border: solid 1px #E7E7E7;
+	margin: -1px;
+}
+
+.settings_box .outline:hover {
+	border: 1px solid red;
+	-webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.settings_box .double .outline .user-account {
+	margin: 15px;
+	overflow: hidden;
+}
+
+.outline .user-account ul {
+	font-size: 0;
+	white-space: nowrap;
+	margin-left: -1px;
+}
+
+.outline .user-account ul li {
+	font-size: 12px;
+	vertical-align: top;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	border-left: solid 1px #E7E7E7;
+}
+
+.outline .user-account ul li a {
+	display: block;
+	height: 100px;
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+.outline .user-account ul li a h5 {
+	color: #666;
+	text-decoration: none;
+}
+
+.outline .user-account ul li .icon {
+	background: url(../img/member_pics.png) no-repeat;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: 5px auto;
+}
+
+.outline .user-account ul .pre-deposit .icon {
+	background-position: -240px 0;
+}
+
+.outline .user-account ul .gwk .icon {
+	background-position: -200px 0;
+}
+
+.outline .user-account ul .voucher .icon {
+	background-position: -275px 0;
+}
+
+.outline .user-account ul .points .icon {
+	background-position: -310px 0;
+}
+
+.outline .user-account ul li a .value {
+	font-weight: 600;
+	line-height: 28px;
+	color: #999;
+	display: block;
+	clear: both;
+}
+
+.outline .user-account ul li a .value em {
+	font: 24px/28px Arial;
+	color: #666;
+	vertical-align: bottom;
+	margin: 0 4px;
+}
+
+
+/*账户安全*/
+
+.settings_box .normal {
+	width: 34.7%;
+	margin-top: 3px;
+}
+
+.settings_box .normal .sam {
+	padding: 20px;
+}
+
+.settings_box .normal .sam .sam-info {
+	height: 20px;
+	margin: 20px 0;
+}
+
+.settings_box .normal .sam .sam-info strong {
+	color: #F33;
+	margin-right: 10px;
+}
+
+.settings_box .normal .sam .sam-info span {
+	font-size: 0;
+	line-height: 12px;
+	background-color: #EEE;
+	vertical-align: middle;
+	display: inline-block;
+	width: 200px;
+	height: 12px;
+	border-radius: 6px;
+	position: relative;
+	z-index: 1;
+	box-shadow: inset 1px 1px 1px rgba(204, 204, 204, 1);
+}
+
+.normal .sam .sam-info span em {
+	width: 30%;
+	border-radius: 6px 0 0 6px;
+	background: url(../img/member_pics.png) no-repeat 0 -140px;
+	display: block;
+	font-size: 0;
+	line-height: 12px;
+	height: 12px;
+	position: absolute;
+	z-index: 1;
+}
+
+.normal .sam .sam-info a {
+	color: #06C;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.settings_box .sam-handle span {
+	color: #666;
+	display: inline-block;
+	width: 48%;
+	height: 20px;
+}
+
+.settings_box .sam-handle i {
+	background: url(../img/member_pics.png) no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.settings_box .sam-handle span i.mobile {
+	background-position: -90px 0;
+	margin-right: 4px;
+}
+
+.settings_box .sam-handle span a {
+	color: #FF966E;
+}
+
+.settings_box .sam-handle span i.mail {
+	background-position: -110px 0;
+	margin-right: 6px;
+}
+
+.settings_box .transaction,
+.settings_box .shopping {
+	height: 320px;
+}
+
+.settings_box .transaction .outline {
+	background-color: #FEFBF8;
+}
+
+.settings_box .title {
+	margin: 15px;
+}
+
+.settings_box .title h3 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16px;
+	display: inline-block;
+	height: 16px;
+	padding-left: 5px;
+	border-left: solid 3px #FD6760;
+}
+
+.settings_box .title ul {
+	font-size: 0;
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 80px;
+	overflow: hidden;
+}
+
+.settings_box .title ul li {
+	font-size: 12px;
+	line-height: 14px;
+	vertical-align: middle;
+	letter-spacing: normal;
+	word-spacing: normal;
+	display: inline-block;
+	height: 14px;
+	padding: 0 20px;
+	margin-left: -1px;
+	border-left: solid 1px #E7E7E7;
+}
+
+.settings_box .title ul li a {
+	color: #333;
+}
+
+.settings_box .title ul li a:hover,
+.settings_box .title ul li a em {
+	color: #FD6760;
+	font-family: Arial;
+}
+
+.settings_box .null-tip,
+.settings_box .order-list {
+	margin: 70px auto auto;
+	text-align: center;
+}
+
+.settings_box .order-list .icon,
+.settings_box .null-tip .icon {
+	background: url(../img/member_pics.png) no-repeat;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.settings_box .order-list .car {
+	background-position: -80px -30px;
+}
+
+.settings_box .order-list h4 {
+	color: #DD997F;
+	font: 16px/24px "microsoft yahei";
+}
+
+.settings_box .null-tip .cart {
+	background-position: -130px -30px;
+}
+
+.settings_box .null-tip h4 {
+	font: 16px/24px "microsoft yahei";
+	color: #777;
+}
+
+.settings_box .null-tip h5 {
+	font: 12px/20px "microsoft yahei";
+	color: #BBB;
+	margin-bottom: 12px;
+}
+
+
+/*商品收藏*/
+
+.settings_box .null-tip .goods {
+	background-position: -180px -30px;
+}
+
+.settings_box #cont .null-tip {
+	text-align: center;
+	margin: 40px auto auto;
+}

@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>红柠檬-商城</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/headtail.css" />
+    <link rel="stylesheet" type="text/css" href="css/mycart.css" />
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+
+<body>
+    <!-- header顶部布局开始 -->
+    <div class="public_top_layout">
+        <div class="topbar public">
+            <div class="user-entry">
+                您好，欢迎来到
+                <a href="#">商城</a> [
+                <a href="login.html">登录</a>] [
+                <a href="#">注册</a>]
+            </div>
+            <div class="quick-menu">
+                <dl>
+                    <dt><a href="account.html">我的订单<i class="sprite_1 drop"></i></a></dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <a href="myorder.html">代付款订单</a>
+                            </li>
+                            <li>
+                                <a href="orderform.html">待确认订单</a>
+                                <a href="myorder.html">待确认订单</a>
+                            </li>
+                            <li>
+                                <a href="myorder.html">待评价交易</a>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">我的收藏<i class="sprite_1 drop"></i></a></dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <a href="mylike.html">商品收藏</a>
+                            </li>
+                            <li>
+                                <a href="mylikestore.html">店铺收藏</a>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">客户服务<i class="sprite_1 drop"></i></a></dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <a href="#">帮助中心</a>
+                            </li>
+                            <li>
+                                <a href="#">售后服务</a>
+                            </li>
+                            <li>
+                                <a href="#">客服中心</a>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">商家服务<i class="sprite_1 drop"></i></a></dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <a href="#">管理中心</a>
+                            </li>
+                            <li>
+                                <a href="#">申请入驻</a>
+                            </li>
+                            <li>
+                                <a href="#">入驻协议</a>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- header顶部布局结束 -->
+    <!-- 我的购物车头部开始 -->
+    <div class="my_cart_top">
+        <div class="my_cart public clear">
+            <a href="index.html" class="fl"><img src="img/logo.jpg" /></a>
+            <div class="process fr">
+                <ul class="clear">
+                    <li>
+                        <i class="vehicle"></i>
+                        <hr size="3" class="sel" />
+                        <em class="sil"></em>
+                        <span class="io">我的购物车</span>
+                    </li>
+                    <li>
+                        <i class="fill"></i>
+                        <hr size="3" />
+                        <em></em>
+                        <span>填写核对购物信息</span>
+                    </li>
+                    <li>
+                        <i class="payment"></i>
+                        <hr size="3" />
+                        <em></em>
+                        <span>支付提交</span>
+                    </li>
+                    <li>
+                        <i class="success"></i>
+                        <hr size="3" />
+                        <em></em>
+                        <span>订单完成</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 商品结算开始 -->
+    <div class="center" style="width: 1200px; margin: 0 auto;">
+        <div class="container">
+            <div class="ccart">
+                <div class="center-list">
+                    <div class="empty relative">
+                        <div class="box text-center">
+                            <img src="img/shopping_bag-noth.png" />
+                            <span>您的购物车里暂无商品，<a href="/">赶紧逛逛→</a></span>
+                        </div>
+                    </div>
+                    <ul class="product">
+                        <li class="fl product_select">
+                            <input class="check" type="checkbox" name="" id="" value="" />
+                            <em></em>
+                        </li>
+                        <li class="fl product_message">
+                            <dl>
+                                <dt class="fl"><img src="img/list3.jpg" height="82px" width="80px" /></dt>
+                                <dd class="fl">
+                                    <h4>韩版原宿风街头字母贴布圆领假两件宽松百搭T恤</h4>
+                                    <p>
+                                        <span>颜色：甜蜜爱恋</span><span>尺码：均码</span>
+                                    </p>
+                                    <h3>
+											<img src="img/sf.png" width="13px" height="13px"/>
+											香港3号仓
+										</h3>
+                                </dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </li>
+                        <li class="fl product_price">
+                            ￥<span class="price">77.10</span>
+                        </li>
+                        <li class="fl product_amount">
+                            <div>
+                                <span class="fl reduce">-</span>
+                                <input type="text" class="fl g_quantity" readonly="true" value="1">
+                                <span class="fl add">+</span>
+                                <div class="clear"></div>
+                            </div>
+                        </li>
+                        <li class="fl subtotal">
+                            ¥<span class="submoney">77.10</span>
+                        </li>
+                        <li class="fl product_del">
+                            <em class="del"></em>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul class="product">
+                        <li class="fl product_select">
+                            <input class="check" type="checkbox" name="" id="" value="" />
+                            <em></em>
+                        </li>
+                        <li class="fl product_message">
+                            <dl>
+                                <dt class="fl"><img src="img/list13.jpg" height="82px" width="80px" /></dt>
+                                <dd class="fl">
+                                    <h4>【萝西帕柏】韩国东大门纯色竖纹T恤</h4>
+                                    <p>
+                                        <span>颜色：自然白</span><span>尺码：均码</span>
+                                    </p>
+                                    <h3>
+											<img src="img/sf.png" width="13px" height="13px"/>
+											品牌商发货
+										</h3>
+                                </dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </li>
+                        <li class="fl product_price">
+                            ￥<span class="price">328.00</span>
+                        </li>
+                        <li class="fl product_amount">
+                            <div>
+                                <span class="fl reduce">-</span>
+                                <input type="text" class="fl g_quantity" readonly="true" value="1">
+                                <span class="fl add">+</span>
+                                <div class="clear"></div>
+                            </div>
+                        </li>
+                        <li class="fl subtotal">
+                            ¥<span class="submoney">328.00</span>
+                        </li>
+                        <li class="fl product_del">
+                            <em class="del"></em>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul class="product">
+                        <li class="fl product_select">
+                            <input class="check" type="checkbox" name="" id="" value="" />
+                            <em></em>
+                        </li>
+                        <li class="fl product_message">
+                            <dl>
+                                <dt class="fl"><img src="img/list24.jpg" height="82px" width="80px" /></dt>
+                                <dd class="fl">
+                                    <h4>夏季韩国新款学生钉珠圆领宽松中长款百搭修身T恤</h4>
+                                    <p>
+                                        <span>颜色：竹原色</span><span>尺码：均码</span>
+                                    </p>
+                                    <h3>
+											<img src="img/sf.png" width="13px" height="13px"/>
+											品牌商发货
+										</h3>
+                                </dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </li>
+                        <li class="fl product_price">
+                            ￥<span class="price">439.00</span>
+                        </li>
+                        <li class="fl product_amount">
+                            <div>
+                                <span class="fl reduce">-</span>
+                                <input type="text" class="fl g_quantity" readonly="true" value="1">
+                                <span class="fl add">+</span>
+                                <div class="clear"></div>
+                            </div>
+                        </li>
+                        <li class="fl subtotal">
+                            ¥<span class="submoney">439.00</span>
+                        </li>
+                        <li class="fl product_del">
+                            <em class="del"></em>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="bottom-list">
+                    <div class="fl all_select">
+                        <input class="fl" type="checkbox" name="" id="check1" value="" />
+                        <em class="fl"></em>
+                        <span class="fl">全选</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="fl all_price">
+                        总计：<span class="price">￥0.00</span>
+                    </div>
+                    <div class="Toorder fr">
+                        <a href="orderform.html">去结算</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer尾部开始 -->
+    <div class="foot_pic">
+        <ul class="clear">
+            <li><img src="img/index_10.jpg" /></li>
+            <li><img src="img/index_11.jpg" /></li>
+            <li><img src="img/index_12.jpg" /></li>
+            <li><img src="img/index_13.jpg" /></li>
+        </ul>
+    </div>
+    <div class="foot_info">
+        <div class="public wrapper">
+            <ul>
+                <li>
+                    <dl class="s1">
+                        <dt>帮助中心</dt>
+                        <dd>
+                            <a href="#" title="购物流程"> 购物流程 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="积分规则"> 积分规则 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="交易条款"> 交易条款 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="商城服务协议"> 商城服务协议 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="VIP购物礼品卡"> VIP购物礼品卡 </a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="s2">
+                        <dt>卖家服务</dt>
+                        <dd>
+                            <a href="#" title="如何申请开店"> 如何申请开店 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="如何管理店铺"> 如何管理店铺 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="如何发货"> 如何发货 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="商城扣分规则"> 商城扣分规则 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="评分管理计分规则"> 评分管理计分规则 </a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="s3">
+                        <dt>支付方式</dt>
+                        <dd>
+                            <a href="#" title="在线支付"> 在线支付 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="支付宝支付"> 支付宝支付 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="微信支付"> 微信支付 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="通联支付"> 通联支付 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="分期付款"> 分期付款 </a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="s4">
+                        <dt>售后服务</dt>
+                        <dd>
+                            <a href="#" title="退换货流程"> 退换货流程 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="退款申请"> 退款申请 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="退换货政策"> 退换货政策 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="返修/退换货"> 返修/退换货 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="联系卖家"> 联系卖家 </a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="s5">
+                        <dt>客服中心</dt>
+                        <dd>
+                            <a href="#" title="如何注册成为会员"> 如何注册成为会员 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="会员修改个人资料"> 会员修改个人资料 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="修改收货地址"> 修改收货地址 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="会员修改密码"> 会员修改密码 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="商品发布与下架"> 商品发布与下架 </a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="s6">
+                        <dt>关于我们 </dt>
+                        <dd>
+                            <a href="#" title="招聘英才"> 招聘英才 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="联系我们"> 联系我们 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="合作及洽谈"> 合作及洽谈 </a>
+                        </dd>
+                        <dd>
+                            <a href="#" title="关于我们"> 关于我们 </a>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="public footer">
+        <p>
+            <a href="#">首页</a> |
+            <a href="#">招聘英才</a> |
+            <a href="#">合作及洽谈</a> |
+            <a href="#">联系我们</a> |
+            <a href="#">关于我们</a> |
+            <a href="#">鲁ICP备*******号 | ICP经营许可证号 鲁**-*******</a> |
+            <a href="">山东律师事务所提供法律服务</a>
+        </p>
+        <div class="record">
+            <p>Copyright ©2016 Meilishuo.com &nbsp;客服电话：4000-***-***&nbsp; 文明办网文明上网举报电话：010-82615762 &nbsp;</p>
+            <p>
+                <a href="#" target="_blank">电信与信息服务业务经营许可证1123号</a>&nbsp;
+                <a href="#" target="_blank">经营性网站备案信息</a>&nbsp;
+            </p>
+        </div>
+    </div>
+    <!-- footer尾部结束 -->
+    <script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/mycart.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jiesuan.js" type="text/javascript"></script>
+</body>
+
+</html>
